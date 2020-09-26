@@ -39,13 +39,19 @@
             <version>8.0.21</version>
         </dependency>
         <!--        DB01 Dodaj do projektu zależność od Hibernate-->
+        <!--DA2 dodanie zależności gson-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.4.21.Final</version>
         </dependency>
 
-<!--   FX1     Dodaj do projektu zależność od bibliotek JavaFX-->
+        <!--   FX1     Dodaj do projektu zależność od bibliotek JavaFX-->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
